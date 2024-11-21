@@ -10,9 +10,11 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "pytest>=8.3.3",
+]
+build = [
     "editables>=0.5",
     "hatchling>=1.26.3",
-    "pytest>=8.3.3",
 ]
 
 # https://docs.astral.sh/uv/concepts/projects/init/#libraries

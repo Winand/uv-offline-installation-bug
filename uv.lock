@@ -141,9 +141,11 @@ dependencies = [
 ]
 
 [package.dev-dependencies]
-dev = [
+build = [
     { name = "editables" },
     { name = "hatchling" },
+]
+dev = [
     { name = "pytest" },
 ]
 
@@ -151,8 +153,8 @@ dev = [
 requires-dist = [{ name = "numpy", specifier = ">=2.1.3" }]
 
 [package.metadata.requires-dev]
-dev = [
+build = [
     { name = "editables", specifier = ">=0.5" },
     { name = "hatchling", specifier = ">=1.26.3" },
-    { name = "pytest", specifier = ">=8.3.3" },
 ]
+dev = [{ name = "pytest", specifier = ">=8.3.3" }]
